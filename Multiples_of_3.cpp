@@ -4,8 +4,8 @@ using namespace std;
 typedef struct element{
 	int ez,eo,et; 
 }el; 
-vector<int> lazy(100001,0); 
-vector<el>  st(100001);
+vector<int> lazy(400009,0); 
+vector<el>  st(400009);
 
 void build(int i, int a, int b){
 	if(a==b){
