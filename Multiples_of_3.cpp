@@ -29,7 +29,7 @@ void shif(int i){
 }
 void _update(int i, int a, int b, int s, int e){
 	if(lazy[i]!=0){
-		int x= lazy[0];
+		int x= lazy[i];
 		lazy[i]=0;
 		if(a!=b){
 			lazy[i*2]+=x;
